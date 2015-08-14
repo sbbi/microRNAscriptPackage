@@ -1,0 +1,11 @@
+Running ./setup.sh will prepare the experiment environment.
+It will unpackage and compile Gnuplot, ViennaRNA, Libsvm.
+Libsvm contains changes compared to the original, so it is not interchangeable.
+
+DEPENDENCIES
+GCC
+python 2.7 and virtualenv
+
+Installation has been tested on unix environments
+
+Once successfully installed, see the step3*.slurm scripts to execute.

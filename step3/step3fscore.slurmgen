@@ -1,0 +1,5 @@
+echo "cd .."
+echo "python sampleGeneratorInitial.py $1 1101 1102"
+echo "cd step3/$1/tools"
+echo "python fselect.py ../$1.all.libsvm"
+echo "cd ../../"

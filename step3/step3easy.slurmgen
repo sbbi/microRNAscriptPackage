@@ -1,0 +1,3 @@
+echo "cd $1/tools"
+echo "time python easy.py ../training020.libsvm ../testing020.libsvm"
+echo "cd ../../"
